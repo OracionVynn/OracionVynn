@@ -83,7 +83,7 @@ def recognize_main(): # main reply call function
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
         
 def excel():
-    wb = load_workbook("input.xlsx") #Opens the excel document for data
+    wb = load_workbook("OracionVynn/OracionVynn/R.E.V.E.R.S.I.I/input.xlsx") #Opens the excel document for data
     wu = wb.get_sheet_by_name("User") #sets the sheet in excel for user prompt
     wr = wb.get_sheet_by_name("Replies") #sets the sheet in excel for replies
     
